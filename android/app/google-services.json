@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "695934730730",
+    "project_id": "floodalertsystem-1",
+    "storage_bucket": "floodalertsystem-1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695934730730:android:84ab535d11624ccbacf293",
+        "android_client_info": {
+          "package_name": "com.purovi.floodalert"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCtyhxU0v5gFd-5lHThOdcYggJsMM8cwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
