@@ -1,0 +1,44 @@
+name: flood_prediction_alert_system
+description: "A professional flood alert and prediction system."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI Icons
+  cupertino_icons: ^1.0.6
+
+  # Firebase (লগইন এবং ডাটাবেসের জন্য)
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.0.0
+  cloud_firestore: ^5.0.0
+
+  # Maps & Location
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.1
+  geolocator: ^10.1.0
+
+  # Notifications & Vibration
+  flutter_local_notifications: ^17.0.0
+  vibration: ^1.9.0
+
+  # Charts
+  fl_chart: ^0.66.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # নোটিফিকেশন আইকনের জন্য বা ইমেজ ব্যবহার করলে এখানে অ্যাসেট অ্যাড করতে পারেন
+  # assets:
+  #   - assets/images/

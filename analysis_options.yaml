@@ -1,0 +1,4 @@
+# analysis_options.yaml ফাইলের সব মুছে এটি দিন
+analyzer:
+  errors:
+    uri_does_not_exist: ignore
